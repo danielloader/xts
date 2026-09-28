@@ -1,0 +1,318 @@
+<Layout xmlns="urn:speedata.de/2021/xts/en"
+    xmlns:sd="urn:speedata.de/2021/xtsfunctions/en">
+  <PageFormat width="148mm" height="210mm"/>
+  <StyleSheet>
+    @font-face { font-family: "Arimo"; src: url("Arimo_400Regular.ttf"); font-weight: 400; }
+    @font-face { font-family: "Arimo"; src: url("Arimo_700Bold.ttf"); font-weight: 700; }
+    body { font-family: "Arimo"; font-size: 10pt; line-height: 14pt; }
+    @page {
+      margin: 2cm;
+      @top-left { content: "Issue 47, synthetic case"; font-family: "Arimo"; font-size: 8pt; vertical-align: bottom; }
+      @bottom-center { content: "Page " counter(page); font-family: "Arimo"; font-size: 8pt; vertical-align: top; }
+    }
+  </StyleSheet>
+  <DefineMasterPage name="page" test="true()"/>
+  <Record match="data">
+    <SetGrid width="1pt" height="0.25pt"/>
+    <PlaceObject id="a1">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:14.0pt"><Value>Case A, paragraph 1. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <Switch><Case test="sd:current-row() &gt; 1"><NextRow rows="24"/></Case></Switch>
+    <PlaceObject id="a2">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:14.0pt"><Value>Case A, paragraph 2. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <Switch><Case test="sd:current-row() &gt; 1"><NextRow rows="24"/></Case></Switch>
+    <PlaceObject id="a3">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:14.0pt"><Value>Case A, paragraph 3. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <Switch><Case test="sd:current-row() &gt; 1"><NextRow rows="24"/></Case></Switch>
+    <PlaceObject id="a4">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:14.0pt"><Value>Case A, paragraph 4. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <Switch><Case test="sd:current-row() &gt; 1"><NextRow rows="24"/></Case></Switch>
+    <PlaceObject id="a5">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:14.0pt"><Value>Case A, paragraph 5. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <Switch><Case test="sd:current-row() &gt; 1"><NextRow rows="24"/></Case></Switch>
+    <PlaceObject id="a6">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:14.0pt"><Value>Case A, paragraph 6. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <Switch><Case test="sd:current-row() &gt; 1"><NextRow rows="24"/></Case></Switch>
+    <PlaceObject id="a7">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:14.0pt"><Value>Case A, paragraph 7. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <Switch><Case test="sd:current-row() &gt; 1"><NextRow rows="24"/></Case></Switch>
+    <PlaceObject id="a8">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:14.0pt"><Value>Case A, paragraph 8. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <Switch><Case test="sd:current-row() &gt; 1"><NextRow rows="24"/></Case></Switch>
+    <PlaceObject id="a9">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:14.0pt"><Value>Case A, paragraph 9. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <Switch><Case test="sd:current-row() &gt; 1"><NextRow rows="24"/></Case></Switch>
+    <PlaceObject id="a10">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:14.0pt"><Value>Case A, paragraph 10. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <Switch><Case test="sd:current-row() &gt; 1"><NextRow rows="24"/></Case></Switch>
+    <PlaceObject id="a11">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:14.0pt"><Value>Case A, paragraph 11. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <Switch><Case test="sd:current-row() &gt; 1"><NextRow rows="24"/></Case></Switch>
+    <PlaceObject id="a12">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:14.0pt"><Value>Case A, paragraph 12. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <Switch><Case test="sd:current-row() &gt; 1"><NextRow rows="24"/></Case></Switch>
+    <PlaceObject id="a13">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:14.0pt"><Value>Case A, paragraph 13. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <Switch><Case test="sd:current-row() &gt; 1"><NextRow rows="24"/></Case></Switch>
+    <PlaceObject id="a14">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:14.0pt"><Value>Case A, paragraph 14. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <Switch><Case test="sd:current-row() &gt; 1"><NextRow rows="24"/></Case></Switch>
+    <PlaceObject id="a15">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:14.0pt"><Value>Case A, paragraph 15. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <Switch><Case test="sd:current-row() &gt; 1"><NextRow rows="24"/></Case></Switch>
+    <PlaceObject id="a16">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:14.0pt"><Value>Case A, paragraph 16. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <Switch><Case test="sd:current-row() &gt; 1"><NextRow rows="24"/></Case></Switch>
+    <PlaceObject id="a17">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:14.0pt"><Value>Case A, paragraph 17. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <Switch><Case test="sd:current-row() &gt; 1"><NextRow rows="24"/></Case></Switch>
+    <PlaceObject id="a18">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:14.0pt"><Value>Case A, paragraph 18. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <Switch><Case test="sd:current-row() &gt; 1"><NextRow rows="24"/></Case></Switch>
+    <PlaceObject id="a19">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:14.0pt"><Value>Case A, paragraph 19. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <Switch><Case test="sd:current-row() &gt; 1"><NextRow rows="24"/></Case></Switch>
+    <PlaceObject id="a-long">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:14.0pt"><Value>Case A, the long paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <Switch><Case test="sd:current-row() &gt; 1"><NextRow rows="24"/></Case></Switch>
+    <PlaceObject id="a-after">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:14.0pt"><Value>Case A, the paragraph after the long one.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <ClearPage/>
+    <PlaceObject id="b1">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:14.0pt"><Value>Case B, paragraph 1. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <Switch><Case test="sd:current-row() &gt; 1"><NextRow rows="24"/></Case></Switch>
+    <PlaceObject id="b2">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:14.0pt"><Value>Case B, paragraph 2. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <Switch><Case test="sd:current-row() &gt; 1"><NextRow rows="24"/></Case></Switch>
+    <PlaceObject id="b3">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:14.0pt"><Value>Case B, paragraph 3. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <Switch><Case test="sd:current-row() &gt; 1"><NextRow rows="24"/></Case></Switch>
+    <PlaceObject id="b4">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:14.0pt"><Value>Case B, paragraph 4. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <Switch><Case test="sd:current-row() &gt; 1"><NextRow rows="24"/></Case></Switch>
+    <PlaceObject id="b5">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:14.0pt"><Value>Case B, paragraph 5. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <Switch><Case test="sd:current-row() &gt; 1"><NextRow rows="24"/></Case></Switch>
+    <PlaceObject id="b6">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:14.0pt"><Value>Case B, paragraph 6. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <Switch><Case test="sd:current-row() &gt; 1"><NextRow rows="24"/></Case></Switch>
+    <PlaceObject id="b7">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:14.0pt"><Value>Case B, paragraph 7. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <Switch><Case test="sd:current-row() &gt; 1"><NextRow rows="24"/></Case></Switch>
+    <PlaceObject id="b8">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:14.0pt"><Value>Case B, paragraph 8. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <Switch><Case test="sd:current-row() &gt; 1"><NextRow rows="24"/></Case></Switch>
+    <PlaceObject id="b9">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:14.0pt"><Value>Case B, paragraph 9. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <Switch><Case test="sd:current-row() &gt; 1"><NextRow rows="24"/></Case></Switch>
+    <PlaceObject id="b10">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:14.0pt"><Value>Case B, paragraph 10. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <Switch><Case test="sd:current-row() &gt; 1"><NextRow rows="24"/></Case></Switch>
+    <PlaceObject id="b11">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:14.0pt"><Value>Case B, paragraph 11. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <Switch><Case test="sd:current-row() &gt; 1"><NextRow rows="24"/></Case></Switch>
+    <PlaceObject id="b12">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:14.0pt"><Value>Case B, paragraph 12. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <Switch><Case test="sd:current-row() &gt; 1"><NextRow rows="24"/></Case></Switch>
+    <PlaceObject id="b13">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:14.0pt"><Value>Case B, paragraph 13. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <Switch><Case test="sd:current-row() &gt; 1"><NextRow rows="24"/></Case></Switch>
+    <PlaceObject id="b14">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:14.0pt"><Value>Case B, paragraph 14. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <Switch><Case test="sd:current-row() &gt; 1"><NextRow rows="24"/></Case></Switch>
+    <PlaceObject id="b15">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:14.0pt"><Value>Case B, paragraph 15. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <Switch><Case test="sd:current-row() &gt; 1"><NextRow rows="24"/></Case></Switch>
+    <PlaceObject id="b16">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:14.0pt"><Value>Case B, paragraph 16. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <Switch><Case test="sd:current-row() &gt; 1"><NextRow rows="24"/></Case></Switch>
+    <PlaceObject id="b17">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:14.0pt"><Value>Case B, paragraph 17. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <Switch><Case test="sd:current-row() &gt; 1"><NextRow rows="24"/></Case></Switch>
+    <PlaceObject id="b18">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:14.0pt"><Value>Case B, paragraph 18. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <Switch><Case test="sd:current-row() &gt; 1"><NextRow rows="24"/></Case></Switch>
+    <PlaceObject id="b19">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:14.0pt"><Value>Case B, paragraph 19. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <Switch><Case test="sd:current-row() &gt; 1"><NextRow rows="24"/></Case></Switch>
+    <PlaceObject id="b20">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:14.0pt"><Value>Case B, paragraph 20. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <Switch><Case test="sd:current-row() &gt; 1"><NextRow rows="24"/></Case></Switch>
+    <PlaceObject id="b21">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:14.0pt"><Value>Case B, paragraph 21. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <Switch><Case test="sd:current-row() &gt; 1"><NextRow rows="24"/></Case></Switch>
+    <PlaceObject id="b22">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:14.0pt"><Value>Case B, paragraph 22. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <Switch><Case test="sd:current-row() &gt; 1"><NextRow rows="72"/></Case></Switch>
+    <PlaceObject id="b-heading">
+      <TextBlock><Paragraph style="margin:0;font-size:14pt;line-height:17.0pt;font-weight:700"><Value>Case B, a heading kept with next</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <Switch><Case test="sd:current-row() &gt; 1"><NextRow rows="24"/></Case></Switch>
+    <PlaceObject id="b-under">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:14.0pt"><Value>Case B, the paragraph the heading belongs to.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <ClearPage/>
+    <PlaceObject id="c1">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:11.3pt"><Value>Case C, line 1. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <PlaceObject id="c2">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:11.3pt"><Value>Case C, line 2. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <PlaceObject id="c3">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:11.3pt"><Value>Case C, line 3. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <PlaceObject id="c4">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:11.3pt"><Value>Case C, line 4. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <PlaceObject id="c5">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:11.3pt"><Value>Case C, line 5. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <PlaceObject id="c6">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:11.3pt"><Value>Case C, line 6. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <PlaceObject id="c7">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:11.3pt"><Value>Case C, line 7. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <PlaceObject id="c8">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:11.3pt"><Value>Case C, line 8. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <PlaceObject id="c9">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:11.3pt"><Value>Case C, line 9. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <PlaceObject id="c10">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:11.3pt"><Value>Case C, line 10. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <PlaceObject id="c11">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:11.3pt"><Value>Case C, line 11. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <PlaceObject id="c12">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:11.3pt"><Value>Case C, line 12. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <PlaceObject id="c13">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:11.3pt"><Value>Case C, line 13. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <PlaceObject id="c14">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:11.3pt"><Value>Case C, line 14. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <PlaceObject id="c15">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:11.3pt"><Value>Case C, line 15. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <PlaceObject id="c16">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:11.3pt"><Value>Case C, line 16. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <PlaceObject id="c17">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:11.3pt"><Value>Case C, line 17. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <PlaceObject id="c18">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:11.3pt"><Value>Case C, line 18. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <PlaceObject id="c19">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:11.3pt"><Value>Case C, line 19. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <PlaceObject id="c20">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:11.3pt"><Value>Case C, line 20. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <PlaceObject id="c21">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:11.3pt"><Value>Case C, line 21. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <PlaceObject id="c22">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:11.3pt"><Value>Case C, line 22. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <PlaceObject id="c23">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:11.3pt"><Value>Case C, line 23. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <PlaceObject id="c24">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:11.3pt"><Value>Case C, line 24. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <PlaceObject id="c25">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:11.3pt"><Value>Case C, line 25. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <PlaceObject id="c26">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:11.3pt"><Value>Case C, line 26. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <PlaceObject id="c27">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:11.3pt"><Value>Case C, line 27. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <PlaceObject id="c28">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:11.3pt"><Value>Case C, line 28. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <PlaceObject id="c29">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:11.3pt"><Value>Case C, line 29. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <PlaceObject id="c30">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:11.3pt"><Value>Case C, line 30. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <PlaceObject id="c31">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:11.3pt"><Value>Case C, line 31. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <PlaceObject id="c32">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:11.3pt"><Value>Case C, line 32. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <PlaceObject id="c33">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:11.3pt"><Value>Case C, line 33. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <PlaceObject id="c34">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:11.3pt"><Value>Case C, line 34. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <PlaceObject id="c35">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:11.3pt"><Value>Case C, line 35. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <PlaceObject id="c36">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:11.3pt"><Value>Case C, line 36. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <PlaceObject id="c37">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:11.3pt"><Value>Case C, line 37. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <PlaceObject id="c38">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:11.3pt"><Value>Case C, line 38. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <PlaceObject id="c39">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:11.3pt"><Value>Case C, line 39. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+    <PlaceObject id="c40">
+      <TextBlock><Paragraph style="margin:0;font-size:10pt;line-height:11.3pt"><Value>Case C, line 40. Lorem ipsum dolor sit amet.</Value></Paragraph></TextBlock>
+    </PlaceObject>
+  </Record>
+</Layout>
