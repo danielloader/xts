@@ -10,14 +10,14 @@ github.com/boxesandglue/boxesandglue v0.2.76 h1:Yl4VEjy4LWRAwnvpxn9Z5zbIOk/Y/Gg2
 github.com/boxesandglue/boxesandglue v0.2.76/go.mod h1:9mj35AkKDwzH9DrUIDWdp2OUTtZadusCrml3KDipwOM=
 github.com/boxesandglue/gofpdi v1.0.24 h1:7Q0v4dkmByemj8PyIYi8ylIYrUnNhY/L/Ed6MRGwlro=
 github.com/boxesandglue/gofpdi v1.0.24/go.mod h1:U26faV5/yQf8ivQS0Tt2TdpU7Y8X9wpLLB2T/5oI+u4=
-github.com/boxesandglue/htmlbag v0.0.77 h1:4OR626FzEjnuO0932wV5PBDfMiopdb1xZUYpbCm7tXQ=
-github.com/boxesandglue/htmlbag v0.0.77/go.mod h1:YaSHG7c9Lc5OTLFGIiSxlgomF/GFYemt6vVRG7rcQWI=
 github.com/boxesandglue/svgreader v0.0.5 h1:yUvFP+T66l2YjRjFs7aLQ4lAfimDSLRssy6wZcfOTGc=
 github.com/boxesandglue/svgreader v0.0.5/go.mod h1:EGGvqEiNQsKBrnLYqDfMznN044fFcKkCHrXDLYJ56IY=
 github.com/boxesandglue/textshape v0.0.17 h1:w0lJNSjw6mJ+a0cbiHcahbOAHlSzQkwpUB5XC1MeWhM=
 github.com/boxesandglue/textshape v0.0.17/go.mod h1:DdRw4tpKs6xFaulvBfut/ICZGXgZeibMhoLrQycmVh8=
 github.com/clipperhouse/uax29/v2 v2.7.0 h1:+gs4oBZ2gPfVrKPthwbMzWZDaAFPGYK72F0NJv2v7Vk=
 github.com/clipperhouse/uax29/v2 v2.7.0/go.mod h1:EFJ2TJMRUaplDxHKj1qAEhCtQPW2tJSwu5BF98AuoVM=
+github.com/danielloader/htmlbag v0.0.46-0.20261004194325-fb4c6af431b1 h1:/MLYESy6pCVgg5/RaR302rgWSdnSsvUHR9osd8qAzWo=
+github.com/danielloader/htmlbag v0.0.46-0.20261004194325-fb4c6af431b1/go.mod h1:YaSHG7c9Lc5OTLFGIiSxlgomF/GFYemt6vVRG7rcQWI=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=

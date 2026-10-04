@@ -39,3 +39,5 @@ require (
 	github.com/speedata/hyphenation v1.0.3 // indirect
 	github.com/speedata/pdfdisassembler v0.0.7 // indirect
 )
+
+replace github.com/boxesandglue/htmlbag => github.com/danielloader/htmlbag v0.0.46-0.20261004194325-fb4c6af431b1
