@@ -238,12 +238,20 @@ func (g *grid) heightToRows(height bag.ScaledPoint) coord {
 }
 
 func (g *grid) allocate(x, y coord, area *area, wd, ht bag.ScaledPoint) {
+	g.allocateTrimmed(x, y, area, wd, ht, 0)
+}
+
+// allocateTrimmed is allocate for an object whose last trim of height, the
+// trimmed leading below its last line's text (text-box-trim), may lie in the
+// bottom margin without the protrusion warning.
+func (g *grid) allocateTrimmed(x, y coord, area *area, wd, ht, trim bag.ScaledPoint) {
 	var warningTopRaised, warningLeftRaised, warningRightRaised, warningBottomRaised bool
 	var offsetX coord
 	var offsetY coord
 
 	offsetX = area.frame[area.currentFrame].col
 	offsetY = area.frame[area.currentFrame].row
+	inside := g.heightToRows(ht - trim)
 	if rows := g.heightToRows(ht); rows > 0 && wd > 0 {
 		col1 := x + offsetX - 1
 		g.ends = append(g.ends, allocationEnd{
@@ -271,7 +279,7 @@ func (g *grid) allocate(x, y coord, area *area, wd, ht bag.ScaledPoint) {
 					slog.Warn("object protrudes into the right margin")
 					warningRightRaised = true
 				}
-				if posY > coord(g.ny) && !warningBottomRaised && !g.inSlate {
+				if posY > coord(g.ny) && row <= inside && !warningBottomRaised && !g.inSlate {
 					slog.Warn("object protrudes into the bottom margin")
 					warningBottomRaised = true
 				}

@@ -205,7 +205,10 @@ func (r *flowRegions) Filled(f htmlbag.Filled) error {
 	if f.Box != nil && f.Used > 0 {
 		xd.currentPage.outputAbsolute(r.left, r.top, f.Box)
 		ht := r.top - g.posY(r.row, r.area) + f.Used
-		g.allocate(1, r.row, r.area, r.width, ht)
+		// The region's last line may reach past its bottom by the leading
+		// htmlbag trimmed there (text-box-trim), without the warning.
+		frameBottom := g.posY(r.area.frame[r.area.currentFrame].height, r.area) + g.gridHeight
+		g.allocateTrimmed(1, r.row, r.area, r.width, ht, max(0, r.top+f.Used-frameBottom))
 		r.area.SetCurrentRow(r.row + g.heightToRows(ht))
 		r.area.SetCurrentCol(1)
 	}

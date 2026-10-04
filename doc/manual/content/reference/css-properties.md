@@ -28,6 +28,7 @@ CSS properties supported by XTS for styling layout elements and HTML content. Le
 | `font-variation-settings` | Comma separated pairs of an axis tag and a number, for variable fonts | `font-variation-settings: "wght" 650;` |
 | `color` | Color value or a defined color name | `color: #333;` |
 | `text-align` | `left`, `right`, `center`, `justify`, `start`, `end` | `text-align: justify;` |
+| `text-box-trim` | `none`, `trim-end`, `trim-both` (as `trim-end`), `trim-start` (no effect). Not inherited. At a page or region break the block's line before the break fits when its text fits: the leading below the text (`text-box-edge: text`) may reach past the break. The start edge is not trimmed | `text-box-trim: trim-end;` |
 | `text-indent` | Length, indents the first line | `text-indent: 1em;` |
 | `text-decoration` | Shorthand for line, style and color | `text-decoration: underline dotted red;` |
 | `text-decoration-line` | `none`, `underline`, `overline`, `line-through` | `text-decoration-line: underline;` |

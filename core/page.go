@@ -385,7 +385,7 @@ func (xd *xtsDocument) OutputAt(vl *node.VList, col coord, row coord, allocate, 
 		}
 	}
 	if allocate {
-		xd.currentGrid.allocate(col, row, area, vl.Width, vl.Height+vl.Depth)
+		xd.currentGrid.allocateTrimmed(col, row, area, vl.Width, vl.Height+vl.Depth, trailingTrim(vl))
 	}
 	return nil
 }

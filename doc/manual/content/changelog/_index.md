@@ -9,6 +9,11 @@ weight: 60
 
 All user visible changes of XTS, newest first. The version at the top may not be released yet.
 
+## 0.1.5 (2026-10-04)
+
+- **A line trimmed with text-box-trim may reach below a frame.**<br>
+  With the CSS property `text-box-trim: trim-end` on a paragraph, htmlbag lets the last line before a page or frame break fit by its text, so the leading below the text may reach past the break. XTS now places and allocates such a line in a `Flow` and a `PlaceObject` without the warning that an object protrudes into the bottom margin, and a `PlaceObject` fits where its last trimmed line's text does.
+
 ## 0.1.4 (2026-10-04)
 
 - **A registered line model gets the paragraph's font.**<br>

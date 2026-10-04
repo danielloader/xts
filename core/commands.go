@@ -2150,6 +2150,9 @@ func cmdPlaceObject(xd *xtsDocument, layoutelt *goxml.Element) (xpath.Sequence, 
 		decorate(vl)
 	}
 
+	// A last line with text-box-trim: trim-end fits by its text (see
+	// trailingTrim).
+	fitHt := vl.Height + vl.Depth - trailingTrim(vl)
 	if rowInt, ok = getInt(attValues.Row); ok {
 		rowSet = true
 		pos = positioningGrid
@@ -2162,7 +2165,7 @@ func cmdPlaceObject(xd *xtsDocument, layoutelt *goxml.Element) (xpath.Sequence, 
 		}
 		if !rowSet {
 			wdCols := xd.currentGrid.widthToColumns(vl.Width)
-			htCols := xd.currentGrid.heightToRows(vl.Height + vl.Depth)
+			htCols := xd.currentGrid.heightToRows(fitHt)
 			row = xd.currentGrid.findSuitableRow(wdCols, htCols, col, area)
 			if row == -1 {
 				area, row = xd.advanceToFit(area, wdCols, htCols, col)
@@ -2185,7 +2188,7 @@ func cmdPlaceObject(xd *xtsDocument, layoutelt *goxml.Element) (xpath.Sequence, 
 			startCol = 1
 		}
 		wdCols := xd.currentGrid.widthToColumns(vl.Width)
-		htCols := xd.currentGrid.heightToRows(vl.Height + vl.Depth)
+		htCols := xd.currentGrid.heightToRows(fitHt)
 		row = xd.currentGrid.findSuitableRow(wdCols, htCols, startCol, area)
 		if row == -1 {
 			area, row = xd.advanceToFit(area, wdCols, htCols, startCol)

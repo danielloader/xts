@@ -24,6 +24,9 @@
 -->
 <changelog xmlns="urn:speedata.de:2014/changelog">
   <chapter version="0.1">
+    <entry version="0.1.5" date="2026-10-04">
+      <en summary="A line trimmed with text-box-trim may reach below a frame.">With the CSS property <tt>text-box-trim: trim-end</tt> on a paragraph, htmlbag lets the last line before a page or frame break fit by its text, so the leading below the text may reach past the break. XTS now places and allocates such a line in a <tt>Flow</tt> and a <tt>PlaceObject</tt> without the warning that an object protrudes into the bottom margin, and a <tt>PlaceObject</tt> fits where its last trimmed line's text does.</en>
+    </entry>
     <entry version="0.1.4" date="2026-10-04">
       <en summary="A registered line model gets the paragraph's font.">A line model registered through <tt>XTSConfig.LineModels</tt> gets the paragraph's own font in <tt>htmlbag.LineModelStyles.Font</tt>, with the face, size and vertical metrics its glyphs are set in, so it can give a line without glyphs, such as the one between two <tt>Br</tt>, the height of the paragraph's font (CSS 2.1 §10.8.1).</en>
     </entry>
